@@ -23,15 +23,7 @@ body {
     background-color: #FFF;
 }
 
-footer {
-    height: 160px;
-    width: 100%;
-    background-color: #FFF;
-    color: #5a4974;
-    background-repeat: no-repeat;
-    background-size: 130%;
-    background-position-y: 9px;
-}
+footer {}
 
 .nav-link {
     color: #5a4974;
@@ -73,11 +65,14 @@ footer {
     font-size: 20px;
     box-shadow: 3px 3px 3px #999;
     z-index: 100;
+    margin-right: 30px;
 }
 
 main {
     height: 400px;
     font-size: 14px;
+    z-index: 90;
+    background-color: transparent;
 }
 
 #b-index {

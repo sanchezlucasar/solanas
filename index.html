@@ -16,20 +16,28 @@
 <style>
     header {
         width: 100%;
-        height: 15%;
-    }
-    
-    main {
-        height: 80%;
-    }
-    
-    footer {
-        height: 10em;
         height: 10%;
     }
     
-    footer img {
-        width: 100%;
+    main {
+        height: 212px;
+    }
+    
+    footer {
+        z-index: 100;
+        background-image: url("img/ondaFONDO.png");
+        background-position-y: 72px;
+        height: 350px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 128%;
+        align-self: flex-end;
+    }
+    
+    footer .container .row {
+        bottom: -191px;
+        left: 40px;
+        position: relative;
     }
     
     .prehead {
@@ -74,14 +82,19 @@
     }
     
     .imagensolana {
-        margin: auto;
-        max-width: 300px;
+        position: relative;
+        top: 25px;
     }
     
     .imagenturnos {
         width: 25%;
         position: relative;
         float: right;
+        margin-right: 40px;
+    }
+    
+    .redSocial {
+        width: 10%;
     }
 </style>
 
@@ -91,21 +104,17 @@
     </div>
     <div class="container">
 
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-1 border-bottom ">
-
-
-
-
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-1  bg-body">
 
             <ul class="nav nav-pills ">
                 <li class="nav-item">
                     <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none align-middle">
                         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                        <img src="img/ISO SOLANAS.png" alt="">
+                        <img style="    margin-left: -30px;" src="img/ISO SOLANAS.png" alt="">
 
                     </a>
                 </li>
-                <li class="nav-item" id="navegador"><a href="pages/contacto.html" class="  nav-link rounded-0 fw-bold mediovertical " aria-current="page">CONTACTO</a></li>
+                <li class="nav-item" id="navegador"><a href="pages/contacto.html" class="  nav-link rounded-0  mediovertical fw-bold ">CONTACTO</a></li>
                 <li class="nav-item"><a href="pages/staff.html" class="nav-link border-start rounded-0 fw-bold text-center mediovertical">STAFF
                 </a>
                 </li>
@@ -130,7 +139,7 @@
     <main>
         <div class="container">
 
-            <img class="img-fluid  rounded mx-auto d-block" src="img/logo.png " alt=" ">
+            <img class="img-fluid  rounded mx-auto d-block imagensolana" src="img/logo.png " alt=" ">
 
 
         </div>
@@ -140,9 +149,17 @@
     </main>
     <footer>
 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="redSocial" src="img/INSTA.png" alt=""> <img class="redSocial" src="img/FACE.png" alt="">
+                </div>
 
 
-        <img src="img/fondofooter.svg " alt=" ">
+            </div>
+        </div>
+
+
 
     </footer>
 
