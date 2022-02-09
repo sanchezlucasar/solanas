@@ -21,9 +21,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #FFF;
+    background-position-y: 53px;
 }
-
-footer {}
 
 .nav-link {
     color: #5a4974;
@@ -238,15 +237,15 @@ main {
 
 .imagensolana {
     position: relative;
-    top: 25px;
+    top: 45px;
 }
 
 .imagenturnos {
-    width: 25%;
+    width: 40%;
     position: relative;
     float: right;
-    margin-top: 30px;
-    margin-right: 40px;
+    margin-top: 64px;
+    margin-right: 45px;
 }
 
 .redSocial {
