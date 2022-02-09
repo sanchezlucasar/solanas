@@ -190,3 +190,64 @@ main {
 .violeta {
     color: #5a4974;
 }
+
+header {
+    width: 100%;
+    height: 10%;
+}
+
+main {
+    height: 212px;
+}
+
+.conitainer {
+    clear: both;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+#menu {
+    float: left;
+    left: 50%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.fuentepeque {
+    font-size: 10px;
+}
+
+#menu li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+.nav-item a {
+    height: 40px;
+}
+
+.mediovertical {
+    line-height: 29px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.imagensolana {
+    position: relative;
+    top: 25px;
+}
+
+.imagenturnos {
+    width: 25%;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+.redSocial {
+    width: 8%;
+}
