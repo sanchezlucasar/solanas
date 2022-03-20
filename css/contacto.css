@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 html {
     background-color: #FFF;
 }
@@ -34,7 +34,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #FFF;
-    background-position-y: 53px;
+    background-position-y: 128px;
 }
 
 .nav-link {
@@ -110,6 +110,10 @@ header ul li a {
     position: relative;
     top: 234px;
     left: 28px;
+}
+
+.iframecontacto {
+    border-color: #9cac84;
 }
 
 @media screen and (max-width: 1200px) {
