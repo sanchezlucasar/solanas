@@ -67,7 +67,7 @@ header ul li {
 .imagenturnos {
     position: relative;
     float: right;
-    margin-top: 229px;
+    margin-top: 90px;
     margin-right: -18px;
 }
 
@@ -150,4 +150,15 @@ li {
     width: 80%;
     position: relative;
     right: -16px;
+}
+
+.matricula {
+    border-bottom: solid #9cac84 2px;
+}
+
+.imagenEstudios {
+    width: 100%;
+    position: relative;
+    top: 11px;
+    left: 10px;
 }
