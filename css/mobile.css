@@ -45,4 +45,39 @@
                 top: -28px;
                 height: 250px;
             }
+            .imagen {
+                left: -139px;
+            }
+            .textosBajoImagen {
+                position: relative;
+                font-size: 14px;
+                right: 160px;
+                font-weight: bold;
+                bottom: -27px;
+            }
+            .imagenturnosContacto {
+                position: relative;
+                top: 0px;
+                right: -32px;
+                width: 286px;
+            }
+            .redSocialContactos {
+                top: -76px;
+                width: 14%;
+                position: relative;
+                left: 96px;
+                margin: 0;
+            }
+            .footerContactos {
+                z-index: 4;
+                height: 220px;
+                position: fixed;
+                background-image: url(../img/fondofooter.png);
+                background-repeat: no-repeat;
+                background-size: 97%;
+                background-position-x: -65px;
+                background-position-y: 4px;
+                bottom: 0px;
+                width: 100%;
+            }
         }
