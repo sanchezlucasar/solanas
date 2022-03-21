@@ -22,7 +22,7 @@ body {
     font-size: 14px;
     background-image: url(../img/linea.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 117%;
     background-position-y: -112px;
 }
 
@@ -67,8 +67,8 @@ footer {
 .imagensolana {
     margin: auto;
     position: relative;
-    top: 150px;
-    width: 45%;
+    top: 98px;
+    width: 62%;
 }
 
 .imagenturnos {
