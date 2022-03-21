@@ -69,14 +69,12 @@
                 margin: 0;
             }
             .footerContactos {
-                z-index: 4;
                 height: 220px;
                 position: fixed;
                 background-image: url(../img/fondofooter.png);
                 background-repeat: no-repeat;
                 background-size: 97%;
                 background-position-x: -65px;
-                background-position-y: 4px;
                 bottom: 0px;
                 width: 100%;
             }
