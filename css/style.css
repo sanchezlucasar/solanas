@@ -20,6 +20,7 @@ body {
     color: #5a4974;
     position: relative;
     font-size: 14px;
+    background: none;
     background-image: url(../img/linea.png);
     background-repeat: no-repeat;
     background-size: 117%;
@@ -167,4 +168,10 @@ iframe {
     position: relative;
     top: 100px;
     right: 60px;
+}
+
+.img-fono {
+    position: relative;
+    left: 185px;
+    width: 90%;
 }

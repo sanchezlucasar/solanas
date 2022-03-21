@@ -1,105 +1,33 @@
-@media screen and (max-width: 700px) {
-    .float {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 40px;
-        right: 40px;
-        padding: 0;
-        background-color: #5a4974;
-        color: #FFF;
-        border-radius: 100px;
-        text-align: center;
-        font-size: 30px;
-        box-shadow: 2px 2px 3px #999;
-        z-index: 100;
-        min-width: 50px;
-    }
-    #rehab-image {
-        left: 8px;
-    }
-    .img-fono {
-        position: relative;
-        top: 40px;
-        left: 67px;
-    }
-    .float svg {
-        margin: 15px 4px 1px 13px;
-    }
-    .texto {
-        display: none;
-    }
-    .bi {
-        width: 28px;
-        height: 23px;
-        position: relative;
-        float: left;
-    }
-    .bi-facebook,
-    .bi-instagram {
-        width: 81px;
-        height: 54px;
-    }
-    .imagencentral {
-        padding: 88px 0 0 0;
-    }
-    .b-index {
-        height: 800px;
-    }
-    .b-index {
-        background-position-y: 60%;
-    }
-    .textosBajoImagen {
-        position: relative;
-    }
-    #body-estudios {
-        height: 1000px;
-    }
-    #body-rehab {
-        height: 883px;
-    }
-    #body-contacto {
-        height: 1079px;
-    }
-    #body-neuro {
-        height: 761px;
-    }
-    #body-terapia {
-        height: 900px;
-    }
-    #body-fono {
-        height: 727px;
-    }
-    body {
-        height: 1000px;
-    }
-    #footer-estudios {
-        bottom: -212px;
-    }
-    #footer-clinica {
-        bottom: -329px;
-    }
-    #footer-neuro,
-    #footer-rehab,
-    #footer-fono {
-        bottom: -65px;
-    }
-    #footer-contacto {
-        bottom: -421px;
-    }
-    #footer-staff {
-        bottom: -271px;
-    }
-    #footer-terapia {
-        bottom: -195px;
-    }
-    footer {
-        bottom: 101px;
-        position: relative;
-        background-image: none;
-        height: 40px;
-    }
-    header {
-        visibility: hidden
-    }
-}
+        @media screen and (max-width: 700px) {
+            footer {
+                z-index: 4;
+                height: 220px;
+                position: fixed;
+                background-image: url(../img/fondofooter.png);
+                background-repeat: no-repeat;
+                background-size: 207%;
+                background-position-x: -135px;
+                background-position-y: 110px;
+                bottom: 0px;
+                width: 100%;
+            }
+            .imagensolana {
+                margin: auto;
+                position: relative;
+                top: 98px;
+                width: 100%;
+            }
+            .imagenturnos {
+                position: fixed;
+                top: 371px;
+                right: 63px;
+                width: 286px;
+            }
+            .redSocial {
+                top: -40px;
+                width: 20%;
+                position: relative;
+                left: 110px;
+                margin: 0;
+            }
+        }
