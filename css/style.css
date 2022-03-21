@@ -102,3 +102,12 @@ footer {
 iframe {
     border: solid #9cac84 2px;
 }
+
+@media screen and (max-width: 1200px) {
+    .imagenturnos {
+        position: fixed;
+        top: 477px;
+        right: 129px;
+        width: 352px;
+    }
+}
