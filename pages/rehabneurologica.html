@@ -1,112 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="../css/rehabilitacion.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/ISO SOLANAS.png">
-    <title>Solanas | Rehabilitación Neurológica</title>
+    <title> Solanas| Estudios </title>
 </head>
+<style>
+    body {
+        background: none;
+    }
+    
+    .subrayadoMatricula {
+        border-bottom: solid 1px;
+    }
+    
+    .todoEstudios {
+        position: relative;
+        left: 80px;
+        bottom: 40px;
+    }
+    
+    .imagenrehabNeurologia {
+        position: relative;
+        width: 80%;
+        top: 20px;
+        left: 190px;
+    }
+    
+    .columnaTextoRehab {
+        position: relative;
+        top: 100px;
+        right: 60px;
+    }
+</style>
 
-<body id="body-rehab">
-    <div class="container-fluid prehead">
+<body>
+    <div class="container-fluid prehead"></div>
 
-    </div>
+    <div class="container-fluid">
+        <header>
 
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-1  bg-body">
+            <nav class="navbar navbar-expand-md navbar-light  rounded" aria-label="Twelfth navbar example">
 
-            <ul class="nav nav-pills ">
-                <li class="nav-item">
-                    <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none align-middle">
-                        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                        <img style="    margin-left: -30px;" src="../img/ISO SOLANAS.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    </a>
-                </li>
-                <li class="nav-item" id="navegador"><a href="contacto.html" class="  nav-link rounded-0  mediovertical fw-bold ">CONTACTO</a></li>
-                <li class="nav-item"><a href="staff.html" class="nav-link border-start rounded-0 fw-bold text-center mediovertical">STAFF
-                </a>
-                </li>
-                <li class="nav-item"><a href="estudios.html" class=" nav-link border-start rounded-0 fw-bold text-center mediovertical">ESTUDIOS</a>
-                </li>
-                <li class="nav-item"><a href="neurologia.html" class=" nav-link border-start rounded-0 fw-bold text-center mediovertical">NEUROLOGÍA
-                </a>
-                </li>
-                <li class="nav-item"><a href="#" class=" nav-link border-start rounded-0 fw-bold text-center">KINESIOLOGÍA <p class="fuentepeque text-center">REHABILITACION
-                    NEUROLÓGICA </p></a> </li>
-                <li class="nav-item"><a href="clinica.html" class=" nav-link border-start rounded-0 fw-bold text-center">CLINICA <br>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none align-middle">
+                                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                                <img style="    margin-left: -30px;" src="../img/ISO SOLANAS.png" alt="logo de solanas">
+
+                            </a>
+                        </li>
+                        <li class="nav-item" id="navegador"><a href="contacto.html" class="  nav-link rounded-0  mediovertical fw-bold ">CONTACTO</a></li>
+                        <li class="nav-item"><a href="staff.html" class="nav-link border-start rounded-0 fw-bold text-center mediovertical">STAFF </a></li>
+                        <li class="nav-item"><a href="estudios.html" class=" nav-link border-start rounded-0 fw-bold text-center mediovertical">ESTUDIOS</a></li>
+                        <li class="nav-item"><a href="#" class=" nav-link border-start rounded-0 fw-bold text-center mediovertical">NEUROLOGÍA</a></li>
+                        <li class="nav-item"><a href="rehabneurologica.html" class=" nav-link border-start rounded-0 fw-bold text-center">KINESIOLOGÍA 
+                                <p class="fuentepeque text-center">REHABILITACION NEUROLÓGICA </p></a> </li>
+
+                        <li class="nav-item"><a href="clinica.html" class=" nav-link border-start rounded-0 fw-bold text-center">CLINICA <br>
                         MÉDICA
                     </a></li>
-                <li class="nav-item"><a href="terapiaocupacional.html" class=" nav-link border-start rounded-0 fw-bold text-center">TERAPIA <br>
+                        <li class="nav-item"><a href="terapiaocupacional.html" class=" nav-link border-start rounded-0 fw-bold text-center">TERAPIA <br>
                         OCUPACIONAL</a></li>
-                <li class="nav-item"><a href="fonoaudiologia.html" class="nav-link border-start rounded-0 fw-bold text-center  mediovertical">FONOAUDIOLOGÍA</a>
-                </li>
-            </ul>
+                        <li class="nav-item"><a href="fonoaudiologia.html" class="nav-link border-start rounded-0 fw-bold text-center  mediovertical">FONOAUDIOLOGÍA</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
         </header>
-
-        <main>
-
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-8 ">
-
-                        <img id="rehab-image" class="img-fluid " style=" width:120%;  top: 30px;" src="../img/REHAB.png" alt=" ESTUDIOS, NIÑOS Y ADULTOS">
-
-
-                    </div>
-
-                    <div class="col-md-3 " style="position: relative; top: 90px;right: 163px;">
-
-                        <div class="row">
-                            <div class="col-12 matricula">
-                                <span>
-                                    <p class="fw-bold"> LUKIANCZUK PAULA
-                                       </p>
-                                    
-                                    <p>    MN 9550 | MP 0533</p>
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="row ">
-                            <div class="col-12">
-                                <span><br>
-                                    <p class="fw-bold">Terapia Física
-                                       <br>Rehabilitación Neurológica</p>
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://wa.me/5211234567890?text=Me%20gustaría%20un%20turno"> <img class="imagenturnos" src="../img/turnos WHATSAPP.png" alt=""></a>
-            </div>
-        </main>
     </div>
-    <footer>
-        <div class="container botones-redes">
 
-            <div class="row">
-                <div class="col">
-                    <a href=""> <img class="img-fluid redSocial" src="../img/INSTA.png" alt=""></a>
-                    <a href=""><img class="img-fluid redSocial" src="../img/FACE.png" alt=""></a>
+    <main>
+
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-7 ">
+
+                    <img id="rehab-image" class="img-fluid imagenrehabNeurologia " src="../img/REHAB.png" alt=" ESTUDIOS, NIÑOS Y ADULTOS">
+
+
+                </div>
+                <div class="col-md-3 columnaTextoRehab">
+                    <div class="row">
+                        <div class="col-12 matricula">
+                            <ul>
+                                <li style="list-style-type: none " class="subrayadoMatricula">
+                                    <p style="font-size: 14px;"><b>LUKIANCZUK PAULA <br>MN 9550 | MP 0533 </p>
+                                       
+                                <li style="list-style-type: none "> <br>
+                                    <p>Terapia Física <br> Rehabilitación Neurológica </p></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
                 </div>
 
+                
             </div>
+        </div>
+        <div class="container">
+            <a href="https://wa.me/5211234567890?text=Me%20gustaría%20un%20turno"> <img class="imagenturnos" src="../img/turnos WHATSAPP.png" alt=""></a>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+
+            <a href="www.loquesea.com"><img class="redSocial" src="../img/FACE.png"> </a>
+            <a href="#"><img class="redSocial" src="../img/INSTA.png"></a>
+
         </div>
 
     </footer>
-
     <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
 
