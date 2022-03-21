@@ -43,6 +43,7 @@
                 position: relative;
                 width: 92%;
                 top: -28px;
+                left: 22px;
                 height: 250px;
             }
             .imagen {
@@ -58,14 +59,14 @@
             .imagenturnosContacto {
                 position: relative;
                 top: 0px;
-                right: -32px;
+                right: -54px;
                 width: 286px;
             }
             .redSocialContactos {
-                top: -3px;
+                top: -40px;
                 width: 14%;
                 position: relative;
-                left: 96px;
+                left: 121px;
                 margin: 0;
             }
             .footerContactos {
