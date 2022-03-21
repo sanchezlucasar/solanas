@@ -1,4 +1,7 @@
         @media screen and (max-width: 700px) {
+            body {
+                background-position-y: 110px;
+            }
             footer {
                 z-index: 4;
                 height: 220px;
