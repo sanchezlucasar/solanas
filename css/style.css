@@ -138,3 +138,33 @@ iframe {
     position: relative;
     bottom: 18px;
 }
+
+.imagenNeurologia {
+    position: relative;
+    width: 80%;
+    top: 30px;
+    left: 200px;
+}
+
+.subrayadoMatricula {
+    border-bottom: solid 1px;
+}
+
+.todoEstudios {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
+
+.imagenrehabNeurologia {
+    position: relative;
+    width: 80%;
+    top: 20px;
+    left: 190px;
+}
+
+.columnaTextoRehab {
+    position: relative;
+    top: 100px;
+    right: 60px;
+}
