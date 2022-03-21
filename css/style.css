@@ -86,10 +86,11 @@ footer {
 }
 
 .imagen {
-    width: 65%;
+    width: 71%;
     position: relative;
     top: 53px;
     left: -33px;
+    margin: 0 0 15px 0;
 }
 
 .textosBajoImagen {
