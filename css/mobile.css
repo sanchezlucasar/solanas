@@ -41,7 +41,8 @@
             iframe {
                 border: solid #9cac84 3px;
                 position: relative;
-                top: -22px;
-                width: 81%;
+                width: 92%;
+                top: -28px;
+                height: 250px;
             }
         }
