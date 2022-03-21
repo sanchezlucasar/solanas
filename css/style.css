@@ -100,7 +100,9 @@ footer {
 }
 
 iframe {
-    border: solid #9cac84 2px;
+    border: solid #9cac84 3px;
+    position: relative;
+    top: 63px;
 }
 
 @media screen and (max-width: 1200px) {
