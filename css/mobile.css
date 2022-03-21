@@ -62,7 +62,7 @@
                 width: 286px;
             }
             .redSocialContactos {
-                top: -76px;
+                top: -13px;
                 width: 14%;
                 position: relative;
                 left: 96px;
@@ -71,11 +71,8 @@
             .footerContactos {
                 height: 220px;
                 position: fixed;
-                background-image: none;
-                background-repeat: no-repeat;
-                background-size: 97%;
-                background-position-x: -65px;
                 bottom: 0px;
                 width: 100%;
+                background-color: #9cac84;
             }
         }
