@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+html {
+    background-color: #FFF;
+}
+
+header {
+    height: 20%;
+}
+
+main {
+    position: relative;
+    height: 500px;
+    z-index: 6;
+    background-color: transparent;
+}
+
+body {
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    color: #5a4974;
+    position: relative;
+    font-size: 14px;
+    background-image: url(../img/linea.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -112px;
+}
+
+footer {
+    z-index: 4;
+    height: 220px;
+    position: fixed;
+    background-image: url(../img/fondofooter.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: -3px;
+    background-position-y: 12px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.nav-link {
+    color: #5a4974;
+    font-weight: 700;
+}
+
+.prehead {
+    background-color: #9cac84;
+    height: 20px;
+}
+
+.nav-item a {
+    height: 55px;
+}
+
+.mediovertical {
+    line-height: 45px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fuentepeque {
+    font-size: 10px;
+}
+
+.imagensolana {
+    margin: auto;
+    position: relative;
+    top: 55px;
+    width: 45%;
+}
+
+.imagenturnos {
+    position: fixed;
+    top: 451px;
+    right: 187px;
+    width: 350px;
+}
+
+.redSocial {
+    top: 120px;
+    width: 5%;
+    position: relative;
+    left: 70px;
+    margin: 0;
+}
+
+.imagen {
+    width: 65%;
+    position: relative;
+    top: 53px;
+    left: -33px;
+}
+
+.textosBajoImagen {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    bottom: -13px;
+}
+
+iframe {
+    border: solid #9cac84 2px;
+}

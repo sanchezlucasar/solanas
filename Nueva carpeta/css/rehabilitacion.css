@@ -67,7 +67,7 @@ header ul li {
 .imagenturnos {
     position: relative;
     float: right;
-    margin-top: 202px;
+    margin-top: 90px;
     margin-right: -18px;
 }
 
@@ -122,6 +122,7 @@ iframe {
 .imagen {
     width: 70%;
     position: relative;
+    top: 53px;
     left: -33px;
 }
 
@@ -129,5 +130,35 @@ iframe {
     position: relative;
     font-size: 14px;
     font-weight: bold;
-    bottom: -83px;
+    bottom: -43px;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.ul2 {
+    position: relative;
+    top: 47px;
+}
+
+.imagenStaff {
+    width: 80%;
+    position: relative;
+    right: -16px;
+}
+
+.matricula {
+    border-bottom: solid #9cac84 2px;
+}
+
+.imagenEstudios {
+    width: 100%;
+    position: relative;
+    top: 11px;
+    left: 10px;
 }
