@@ -26,18 +26,32 @@ body {
     background-position-y: -112px;
 }
 
+
+/* css FOOTER*/
+
 footer {
     z-index: 4;
     height: 220px;
     position: fixed;
     background-image: url(../img/fondofooter.png);
     background-repeat: no-repeat;
-    background-size: 123%;
+    background-size: 103%;
     background-position-x: -30px;
-    background-position-y: 13px;
+    background-position-y: -10px;
     bottom: 0px;
     width: 100%;
 }
+
+.redSocial {
+    top: 100px;
+    width: 5%;
+    position: relative;
+    left: 79px;
+    margin: 0;
+}
+
+
+/* FIN FOOTER*/
 
 .nav-link {
     color: #5a4974;
@@ -66,78 +80,40 @@ footer {
 .imagensolana {
     margin: auto;
     position: relative;
-    top: 98px;
-    width: 62%;
-}
-
-.imagenturnos {
-    position: fixed;
-    top: 550px;
-    right: 187px;
-    width: 350px;
-}
-
-.redSocial {
-    top: 120px;
-    width: 5%;
-    position: relative;
-    left: 70px;
-    margin: 0;
-}
-
-.imagen {
-    width: 71%;
-    position: relative;
-    top: 53px;
-    left: -33px;
-    margin: 0 0 15px 0;
-}
-
-.textosBajoImagen {
-    position: relative;
-    font-size: 14px;
-    font-weight: bold;
-    bottom: -13px;
-}
-
-iframe {
-    border: solid #9cac84 3px;
-    position: relative;
-    top: 63px;
-}
-
-@media screen and (max-width: 1200px) {
-    .imagenturnos {
-        position: fixed;
-        top: 477px;
-        right: 129px;
-        width: 352px;
-    }
+    top: 68px;
+    width: 52%;
 }
 
 .datos_medicos li {
     list-style-type: none;
 }
 
-.medicosderecha {
-    position: relative;
-    top: 10px;
-    right: 90px;
-}
+
+/*  SECCIÓN STAFF  */
 
 .todasTablasStaff {
     position: relative;
-    left: 80px;
+    left: 84px;
 }
 
 .imagenStaff {
-    width: 78%;
+    width: 68%;
 }
 
 .textoBajoImagenStaff {
     position: relative;
+    left: -28px;
     bottom: 18px;
 }
+
+.medicosderecha {
+    position: relative;
+    top: 40px;
+    right: 140px;
+}
+
+
+/* FIN CSS SECCIÓN STAFF  */
 
 .imagenNeurologia {
     position: relative;
@@ -150,11 +126,23 @@ iframe {
     border-bottom: solid 1px;
 }
 
-.todoEstudios {
+
+/*CSS Terapia Ocupacional*/
+
+.imagenTerapia {
     position: relative;
-    left: 80px;
-    bottom: 40px;
+    width: 100%;
+    top: 5px;
+    left: 70px;
 }
+
+.textoTerapia {
+    position: relative;
+    top: 30px;
+}
+
+
+/*FIN DE CSS TERAPIA OCUPACIONAL*/
 
 .imagenrehabNeurologia {
     position: relative;
@@ -169,11 +157,24 @@ iframe {
     right: 60px;
 }
 
+
+/*CSS Fonoaudiologia*/
+
 .img-fono {
     position: relative;
-    left: 185px;
-    width: 90%;
+    left: 195px;
+    width: 85%;
+    bottom: 7px;
 }
+
+.textoFonoaudiologia {
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+
+
+/*FIN CSS Fonoaudiologia*/
 
 .imagen {
     width: 71%;
@@ -183,18 +184,120 @@ iframe {
     margin: 0 0 15px 0;
 }
 
+
+/* CSS SECCIÓN CONTACTO  */
+
+.imagenContacto {
+    width: 61%;
+    position: relative;
+    bottom: 13px;
+    right: -80px;
+    margin: 0 0 15px 0;
+}
+
 .textosBajoImagen {
     position: relative;
     font-size: 14px;
-    right: 97px;
+    right: -57px;
     font-weight: bold;
-    bottom: -27px;
+    bottom: 27px;
 }
 
 iframe {
-    border: solid #9cac84 3px;
     position: relative;
-    left: 22px;
-    width: 100%;
-    height: 340px;
+    top: 63px;
+    border: solid #9cac84 3px;
+    width: 110%;
+    right: 13px;
+    height: 240px;
 }
+
+
+/* FIN CSS SECCIÓN CONTACTO  */
+
+.imagenturnos {
+    position: fixed;
+    top: 480px;
+    right: 177px;
+    width: 350px;
+}
+
+
+/*  CSS SECCIÓN NEUROLOGIA  */
+
+.imagenNeurologia {
+    position: relative;
+    width: 80%;
+    top: 17px;
+    left: 195px;
+}
+
+.textoNeurologia {
+    position: relative;
+    top: -15px;
+}
+
+
+/*  FIN CSS SECCIÓN NEUROLOGIA  */
+
+
+/*  CSS SECCIÓN REHABILITACION NEUROLOGICA  */
+
+.imagenrehabNeurologia {
+    position: relative;
+    width: 80%;
+    top: 30px;
+    left: 193px;
+}
+
+.columnaTextoRehab {
+    position: relative;
+    top: 100px;
+    right: 140px;
+}
+
+
+/*  FIN CSS SECCIÓN REHABILITACION NEUROLOGICA  */
+
+
+/*  CSS SECCIÓN ESTUDIOS  */
+
+.imagenEstudios {
+    width: 90%;
+    position: relative;
+    left: -10px;
+    top: 110px;
+}
+
+.textoEstudios {
+    position: relative;
+    right: 110px;
+    top: 50px;
+}
+
+
+/* FIN CSS SECCIÓN ESTUDIOS  */
+
+
+/*CSS CLINICA MEDICA*/
+
+.imagenClinica {
+    position: relative;
+    width: 90%;
+    top: 40px;
+    left: 21px;
+}
+
+.todoclinicaMain {
+    position: relative;
+    left: 60px;
+}
+
+.textoClinicaMedica {
+    position: relative;
+    top: 15px;
+    right: 90px;
+}
+
+
+/*FIN CSS CLINICA MEDICA*/
