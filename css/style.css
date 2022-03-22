@@ -22,8 +22,8 @@ body {
     font-size: 14px;
     background-image: url(../img/linea.png);
     background-repeat: no-repeat;
-    background-size: 117%;
-    background-position-y: -112px;
+    background-size: 100%;
+    background-position-y: -90px;
 }
 
 
@@ -111,7 +111,7 @@ footer {
 .medicosderecha {
     position: relative;
     top: 40px;
-    right: 140px;
+    right: 210px;
 }
 
 
@@ -133,46 +133,34 @@ footer {
 
 .imagenTerapia {
     position: relative;
-    width: 100%;
+    width: 80%;
     top: 5px;
     left: 70px;
 }
 
 .textoTerapia {
     position: relative;
-    top: 30px;
+    top: 60px;
+    right: 140px;
 }
 
 
 /*FIN DE CSS TERAPIA OCUPACIONAL*/
-
-.imagenrehabNeurologia {
-    position: relative;
-    width: 80%;
-    top: 20px;
-    left: 190px;
-}
-
-.columnaTextoRehab {
-    position: relative;
-    top: 100px;
-    right: 60px;
-}
 
 
 /*CSS Fonoaudiologia*/
 
 .img-fono {
     position: relative;
-    left: 195px;
-    width: 85%;
+    left: 185px;
+    width: 80%;
     bottom: 7px;
 }
 
 .textoFonoaudiologia {
     position: relative;
-    top: 50px;
-    right: 80px;
+    top: 25px;
+    right: 140px;
 }
 
 
@@ -190,9 +178,9 @@ footer {
 /* CSS SECCIÓN CONTACTO  */
 
 .imagenContacto {
-    width: 61%;
+    width: 45%;
     position: relative;
-    top: 3px;
+    top: 5px;
     right: -80px;
 }
 
@@ -206,10 +194,10 @@ footer {
 
 iframe {
     position: relative;
-    top: 73px;
+    top: 33px;
     border: solid #9cac84 3px;
-    width: 110%;
-    right: 13px;
+    width: 80%;
+    right: 211px;
     height: 240px;
 }
 
@@ -218,7 +206,7 @@ iframe {
 
 .imagenturnos {
     position: fixed;
-    top: 480px;
+    top: 420px;
     right: 177px;
     width: 350px;
 }
@@ -247,14 +235,14 @@ iframe {
 .imagenrehabNeurologia {
     position: relative;
     width: 80%;
-    top: 30px;
+    top: 10px;
     left: 193px;
 }
 
 .columnaTextoRehab {
     position: relative;
-    top: 100px;
-    right: 140px;
+    top: 75px;
+    right: 145px;
 }
 
 
@@ -273,7 +261,7 @@ iframe {
 .textoEstudios {
     position: relative;
     right: 110px;
-    top: 50px;
+    top: 40px;
 }
 
 
@@ -284,7 +272,7 @@ iframe {
 
 .imagenClinica {
     position: relative;
-    width: 90%;
+    width: 80%;
     top: 40px;
     left: 21px;
 }
@@ -296,8 +284,8 @@ iframe {
 
 .textoClinicaMedica {
     position: relative;
-    top: 15px;
-    right: 90px;
+    top: 10px;
+    right: 140px;
 }
 
 
