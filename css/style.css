@@ -9,6 +9,11 @@ header {
     color: #5a4974;
 }
 
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #5a4974;
+}
+
 main {
     font-family: 'Montserrat', sans-serif;
     color: #5a4974;
@@ -129,7 +134,7 @@ footer {
 }
 
 .subrayadoMatricula {
-    border-bottom: solid 1px;
+    border-bottom: solid #5a4974 2px;
 }
 
 
