@@ -10,6 +10,8 @@ header {
 }
 
 main {
+    font-family: 'Montserrat', sans-serif;
+    color: #5a4974;
     position: relative;
     height: 500px;
     z-index: 6;
