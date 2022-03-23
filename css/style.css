@@ -182,7 +182,7 @@ footer {
 /* CSS SECCIÓN CONTACTO  */
 
 .imagenContacto {
-    width: 45%;
+    width: 75%;
     position: relative;
     top: 5px;
     right: -80px;
@@ -193,16 +193,16 @@ footer {
     font-size: 14px;
     right: -57px;
     font-weight: bold;
-    bottom: 27px;
+    bottom: 67px;
 }
 
 iframe {
     position: relative;
     top: 33px;
     border: solid #9cac84 3px;
-    width: 80%;
-    right: 211px;
-    height: 240px;
+    width: 110%;
+    right: 11px;
+    height: 270px;
 }
 
 
