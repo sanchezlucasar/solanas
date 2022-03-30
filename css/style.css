@@ -380,12 +380,4 @@ header {
         left: 109px;
         margin: 0;
     }
-    .footerContactos {
-        height: 220px;
-        position: fixed;
-        bottom: 0px;
-        width: 100%;
-        background-color: #9cac84;
-        background-image: none;
-    }
 }
