@@ -285,15 +285,14 @@
                     background-position-y: 330px;
                 }
                 footer {
-                    z-index: 4;
-                    height: 220px;
+                    height: 269px;
                     position: fixed;
                     background-image: url(../img/fondofooter.png);
                     background-repeat: no-repeat;
-                    background-size: 207%;
-                    background-position-x: -135px;
-                    background-position-y: 110px;
-                    bottom: 0px;
+                    background-size: 175%;
+                    background-position-x: -166px;
+                    background-position-y: 88px;
+                    bottom: -79px;
                     width: 100%;
                 }
                 .imagensolana {
