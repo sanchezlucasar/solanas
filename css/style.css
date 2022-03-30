@@ -282,7 +282,8 @@
             
             @media screen and (max-width: 700px) {
                 body {
-                    background-position-y: 330px;
+                    background-position-y: 141px;
+                    background-size: 123%;
                 }
                 footer {
                     height: 269px;
