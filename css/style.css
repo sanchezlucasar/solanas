@@ -391,4 +391,14 @@ header {
         right: -52px;
         width: 286px;
     }
+    .textoBajoImagenStaff {
+        position: relative;
+        left: -82px;
+        bottom: -20px;
+    }
+    .medicosderecha {
+        position: relative;
+        top: 21px;
+        right: 82px;
+    }
 }
