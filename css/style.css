@@ -282,7 +282,7 @@
             
             @media screen and (max-width: 700px) {
                 body {
-                    background-position-y: 141px;
+                    background-position-y: 160px;
                     background-size: 123%;
                 }
                 footer {
@@ -304,9 +304,9 @@
                 }
                 .imagenturnos {
                     position: relative;
-                    top: 154px;
-                    right: -25px;
-                    width: 286px;
+                    top: 209px;
+                    right: -11px;
+                    width: 330px;
                 }
                 .redSocial {
                     top: 67px;
