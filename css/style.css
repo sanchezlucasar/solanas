@@ -326,10 +326,10 @@ header {
         width: 100%;
     }
     .imagensolana {
-        margin: auto;
+        margin: 0 0 0 0;
         position: relative;
         top: 98px;
-        width: 100%;
+        width: 90%;
     }
     .imagenturnos {
         position: relative;
