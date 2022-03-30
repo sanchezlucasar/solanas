@@ -374,4 +374,21 @@ header {
         left: 109px;
         margin: 0;
     }
+    .footerContactos {
+        height: 220px;
+        position: fixed;
+        background-image: url(../img/fondofooter.png);
+        background-repeat: no-repeat;
+        background-size: 207%;
+        background-position-x: -135px;
+        background-position-y: 110px;
+        bottom: -79px;
+        width: 100%;
+    }
+    .imagenTurnosContactos {
+        position: relative;
+        top: -34px;
+        right: -52px;
+        width: 286px;
+    }
 }
