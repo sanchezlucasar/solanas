@@ -1,0 +1,39 @@
+@media only screen and (max-width: 415px) {
+    body {
+        background-image: none;
+    }
+    footer {
+        z-index: 4;
+        height: 220px;
+        position: fixed;
+        background-image: url(../img/fondofooter.png);
+        background-repeat: no-repeat;
+        background-size: 108%;
+        background-position-x: -46px;
+        background-position-y: 135px;
+        bottom: 1px;
+        width: 114%;
+    }
+    .redSocial {
+        top: 150px;
+        width: 10%;
+        position: relative;
+        left: 25px;
+        margin: 0;
+    }
+    .imagenturnos {
+        position: fixed;
+        top: 584px;
+        right: 84px;
+        width: 250px;
+    }
+    .imagensolana {
+        position: relative;
+        margin: auto;
+        top: 132px;
+        width: 100%;
+    }
+    .imagenLogoSolana {
+        margin-left: 94px;
+    }
+}

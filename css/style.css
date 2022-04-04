@@ -51,11 +51,9 @@ footer {
     width: 100%;
 }
 
-.footerContactos {}
-
 .redSocial {
     top: 100px;
-    width: 10%;
+    width: 5%;
     position: relative;
     left: 79px;
     margin: 0;
@@ -216,7 +214,9 @@ iframe {
 /* FIN CSS SECCIÓN CONTACTO  */
 
 .imagenturnos {
-    position: relative;
+    position: fixed;
+    top: 475px;
+    right: 177px;
     width: 350px;
 }
 
@@ -306,125 +306,6 @@ header {
     box-shadow: 0 4px 6px -6px #222;
 }
 
-.imagenTurnosContacto {
-    position: fixed;
-    top: 475px;
-    right: 177px;
-    width: 350px;
-}
-
-
-/*Mobil*/
-
-@media screen and (max-width: 700px) {
-    body {
-        background-position-y: 160px;
-        background-size: 123%;
-    }
-    footer {
-        height: 269px;
-        position: fixed;
-        background-image: url(../img/fondofooter.png);
-        background-repeat: no-repeat;
-        background-size: 175%;
-        background-position-x: -166px;
-        background-position-y: 88px;
-        bottom: -79px;
-        width: 100%;
-    }
-    .imagensolana {
-        margin: 0 0 0 0;
-        position: relative;
-        top: 98px;
-        width: 105%;
-    }
-    .imagenturnos {
-        position: relative;
-        top: 209px;
-        right: -11px;
-        width: 330px;
-    }
-    .img-redes {
-        top: 67px;
-        width: 10%;
-        position: relative;
-        left: 110px;
-    }
-    .filaImagenContacto {
-        position: relative;
-        left: 118px;
-        top: -60px;
-    }
-    .imagenContacto {
-        width: 70%;
-        position: relative;
-        top: 4px;
-        right: -37px;
-    }
-    iframe {
-        border: solid #9cac84 3px;
-        position: relative;
-        width: 90%;
-        top: -37px;
-        left: 25px;
-        height: 184px;
-    }
-    .imagen {
-        left: -139px;
-    }
-    .textosBajoImagen {
-        position: relative;
-        font-size: 12px;
-        right: 5px;
-        font-weight: bold;
-        bottom: 34px;
-    }
-    .redSocialContactos {
-        top: -40px;
-        width: 14%;
-        position: relative;
-        left: 109px;
-        margin: 0;
-    }
-    .footerContactos {
-        height: 269px;
-        position: fixed;
-        background-image: url(../img/fondofooter.png);
-        background-repeat: no-repeat;
-        background-size: 175%;
-        background-position-x: -166px;
-        background-position-y: 88px;
-        bottom: -79px;
-        width: 100%;
-    }
-    .imagenTurnosContactos {
-        position: relative;
-        top: -34px;
-        right: -52px;
-        width: 286px;
-    }
-    .textoBajoImagenStaff {
-        position: relative;
-        left: -82px;
-        bottom: -20px;
-    }
-    .medicosderecha {
-        position: relative;
-        top: 21px;
-        right: 82px;
-    }
-    .imgSolanaLogo {
-        width: 30%;
-        margin: 0px 0 -1px 81px;
-        padding: 0 3px 0 0;
-    }
-}
-
-.columnafooter {
-    width: 87%;
-    margin: 50px 0 0 58px;
-}
-
-.img-redes {
-    width: 25%;
+.imagenLogoSolana {
+    margin-left: -30px;
 }
