@@ -122,4 +122,20 @@
         left: 15px;
         top: 140px;
     }
+    .columnaTextoRehab {
+        position: relative;
+        top: 30px;
+        right: -8px;
+    }
+    .imagenrehabNeurologia {
+        position: relative;
+        width: 80%;
+        top: 122px;
+        left: 43px;
+    }
+    .matriculaRehabNeuro {
+        position: relative;
+        left: -2px;
+        top: 140px;
+    }
 }
