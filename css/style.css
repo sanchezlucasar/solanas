@@ -264,13 +264,19 @@ iframe {
     width: 90%;
     position: relative;
     left: -10px;
-    top: 110px;
+    top: 40px;
 }
 
 .textoEstudios {
     position: relative;
     right: 110px;
     top: 40px;
+}
+
+.todoEstudios {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
 }
 
 

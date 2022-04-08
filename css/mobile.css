@@ -36,4 +36,90 @@
     .imagenLogoSolana {
         margin-left: 94px;
     }
+    /* CONTACTOS MOBILE*/
+    .imagenContacto {
+        width: 49%;
+        position: relative;
+        top: 5px;
+        right: -80px;
+        margin-bottom: 7px;
+    }
+    .textosBajoImagen {
+        position: relative;
+        font-size: 12px;
+        right: -8px;
+        font-weight: bold;
+        bottom: -29px;
+    }
+    iframe {
+        position: relative;
+        /* bottom: 60px; */
+        border: solid #9cac84 3px;
+        width: 80%;
+        right: -39px;
+        top: 21px;
+        height: 224px;
+    }
+    .imagenturnosContacto {
+        position: relative;
+        top: 15px;
+        right: -71px;
+        width: 250px;
+    }
+    /*STAFF MOBILE*/
+    .imagenStaff {
+        position: relative;
+        top: 5px;
+        width: 55%;
+    }
+    .textoBajoImagenStaff {
+        position: relative;
+        left: -76px;
+        bottom: 8px;
+    }
+    .medicosderecha {
+        position: relative;
+        top: -5px;
+        right: 76px;
+    }
+    .imagenturnosStaff {
+        position: relative;
+        top: -13px;
+        right: -61px;
+        width: 250px;
+    }
+    /*ESTUDIOS MOBILE*/
+    .imagenEstudios {
+        position: relative;
+        top: 132px;
+        width: 80%;
+        left: 53px;
+    }
+    .todoEstudios {
+        position: relative;
+        left: 0px;
+        bottom: 40px;
+    }
+    .textoEstudios {
+        position: relative;
+        right: -10px;
+        top: 40px;
+    }
+    .imagenturnosEstudios {
+        position: relative;
+        top: 7px;
+        right: -61px;
+        width: 250px;
+    }
+    .imagenNeurologia {
+        position: relative;
+        width: 71%;
+        top: 109px;
+        left: 57px;
+    }
+    .matricula {
+        position: relative;
+        left: 15px;
+        top: 140px;
+    }
 }
