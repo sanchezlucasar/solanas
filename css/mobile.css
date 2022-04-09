@@ -157,4 +157,40 @@
     .textoClinicaMedica ul li p {
         margin-bottom: -6px;
     }
+    /*Terapia Ocupacional Mobile*/
+    .imagenTerapia {
+        position: relative;
+        width: 80%;
+        top: 137px;
+        left: 42px;
+    }
+    .textoTerapia {
+        position: relative;
+        top: -14px;
+        right: 11px;
+    }
+    .imagenturnosTerapia {
+        position: relative;
+        top: 175px;
+        right: -65px;
+        width: 250px;
+    }
+    /*Fonoaudiología*/
+    .img-fono {
+        position: relative;
+        left: 37px;
+        width: 81%;
+        bottom: -121px;
+    }
+    .imagenturnosFono {
+        position: relative;
+        top: 186px;
+        right: -75px;
+        width: 250px;
+    }
+    .textoFonoaudiologia {
+        position: relative;
+        top: -1px;
+        right: 16px;
+    }
 }
