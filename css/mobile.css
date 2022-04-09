@@ -1,196 +1,216 @@
-@media only screen and (max-width: 415px) {
-    body {
-        background-image: none;
-    }
-    footer {
-        z-index: 4;
-        height: 220px;
-        position: fixed;
-        background-image: url(../img/fondofooter.png);
-        background-repeat: no-repeat;
-        background-size: 108%;
-        background-position-x: -46px;
-        background-position-y: 135px;
-        bottom: 1px;
-        width: 114%;
-    }
-    .redSocial {
-        top: 150px;
-        width: 10%;
-        position: relative;
-        left: 25px;
-        margin: 0;
-    }
-    .imagenturnos {
-        position: fixed;
-        top: 584px;
-        right: 84px;
-        width: 250px;
-    }
-    .imagensolana {
-        position: relative;
-        margin: auto;
-        top: 132px;
-        width: 100%;
-    }
-    .imagenLogoSolana {
-        margin-left: 94px;
-    }
-    /* CONTACTOS MOBILE*/
-    .imagenContacto {
-        width: 49%;
-        position: relative;
-        top: 5px;
-        right: -80px;
-        margin-bottom: 7px;
-    }
-    .textosBajoImagen {
-        position: relative;
-        font-size: 12px;
-        right: -8px;
-        font-weight: bold;
-        bottom: -29px;
-    }
-    iframe {
-        position: relative;
-        /* bottom: 60px; */
-        border: solid #9cac84 3px;
-        width: 80%;
-        right: -39px;
-        top: 21px;
-        height: 224px;
-    }
-    .imagenturnosContacto {
-        position: relative;
-        top: 15px;
-        right: -71px;
-        width: 250px;
-    }
-    /*STAFF MOBILE*/
-    .imagenStaff {
-        position: relative;
-        top: 5px;
-        width: 55%;
-    }
-    .textoBajoImagenStaff {
-        position: relative;
-        left: -76px;
-        bottom: 8px;
-    }
-    .medicosderecha {
-        position: relative;
-        top: -5px;
-        right: 76px;
-    }
-    .imagenturnosStaff {
-        position: relative;
-        top: -13px;
-        right: -61px;
-        width: 250px;
-    }
-    /*ESTUDIOS MOBILE*/
-    .imagenEstudios {
-        position: relative;
-        top: 132px;
-        width: 80%;
-        left: 53px;
-    }
-    .todoEstudios {
-        position: relative;
-        left: 0px;
-        bottom: 40px;
-    }
-    .textoEstudios {
-        position: relative;
-        right: -10px;
-        top: 40px;
-    }
-    .imagenturnosEstudios {
-        position: relative;
-        top: 7px;
-        right: -61px;
-        width: 250px;
-    }
-    .imagenNeurologia {
-        position: relative;
-        width: 71%;
-        top: 109px;
-        left: 57px;
-    }
-    .matricula {
-        position: relative;
-        left: 15px;
-        top: 140px;
-    }
-    .columnaTextoRehab {
-        position: relative;
-        top: 30px;
-        right: -8px;
-    }
-    .imagenrehabNeurologia {
-        position: relative;
-        width: 80%;
-        top: 122px;
-        left: 43px;
-    }
-    .matriculaRehabNeuro {
-        position: relative;
-        left: -2px;
-        top: 140px;
-    }
-    /*Clinica Medica Mobile*/
-    .todoclinicaMain {
-        position: relative;
-        left: 9px;
-    }
-    .imagenClinica {
-        position: relative;
-        width: 60%;
-        top: 117px;
-        left: 46px;
-    }
-    .textoClinicaMedica {
-        position: relative;
-        top: 54px;
-        right: 3px;
-    }
-    .textoClinicaMedica ul li p {
-        margin-bottom: -6px;
-    }
-    /*Terapia Ocupacional Mobile*/
-    .imagenTerapia {
-        position: relative;
-        width: 80%;
-        top: 137px;
-        left: 42px;
-    }
-    .textoTerapia {
-        position: relative;
-        top: -14px;
-        right: 11px;
-    }
-    .imagenturnosTerapia {
-        position: relative;
-        top: 175px;
-        right: -65px;
-        width: 250px;
-    }
-    /*Fonoaudiología*/
-    .img-fono {
-        position: relative;
-        left: 37px;
-        width: 81%;
-        bottom: -121px;
-    }
-    .imagenturnosFono {
-        position: relative;
-        top: 186px;
-        right: -75px;
-        width: 250px;
-    }
-    .textoFonoaudiologia {
-        position: relative;
-        top: -1px;
-        right: 16px;
-    }
-}
+        @media only screen and (max-width: 360px) {
+            body {
+                background-image: none;
+            }
+            footer {
+                z-index: 4;
+                height: 220px;
+                position: fixed;
+                background-image: url(../img/fondofooter.png);
+                background-repeat: no-repeat;
+                background-size: 108%;
+                background-position-x: -46px;
+                background-position-y: 135px;
+                bottom: 1px;
+                width: 114%;
+            }
+            .redSocial {
+                top: 150px;
+                width: 10%;
+                position: relative;
+                left: 25px;
+                margin: 0;
+            }
+            .imagenturnos {
+                position: fixed;
+                top: 584px;
+                right: 56px;
+                width: 250px;
+            }
+            .imagensolana {
+                position: relative;
+                margin: auto;
+                top: 132px;
+                width: 100%;
+            }
+            .imagenLogoSolana {
+                margin-left: 75px;
+            }
+            .imagenLogoSolanaContacto {
+                margin-left: 87px;
+            }
+            /* CONTACTOS MOBILE*/
+            .imagenContacto {
+                width: 54%;
+                position: relative;
+                top: 41px;
+                right: -62px;
+                margin-bottom: 7px;
+            }
+            .textosBajoImagen {
+                position: relative;
+                font-size: 12px;
+                right: -8px;
+                font-weight: bold;
+                bottom: -29px;
+            }
+            iframe {
+                position: relative;
+                /* bottom: 60px; */
+                border: solid #9cac84 3px;
+                width: 80%;
+                right: -39px;
+                top: 21px;
+                height: 224px;
+            }
+            .imagenturnosContacto {
+                position: relative;
+                top: 40px;
+                right: -45px;
+                width: 250px;
+            }
+            /*STAFF MOBILE*/
+            .imagenStaff {
+                position: relative;
+                top: 5px;
+                width: 55%;
+            }
+            .textoBajoImagenStaff {
+                position: relative;
+                left: -76px;
+                bottom: 8px;
+            }
+            .medicosderecha {
+                position: relative;
+                top: -5px;
+                right: 76px;
+            }
+            .imagenturnosStaff {
+                position: relative;
+                top: -10px;
+                right: -46px;
+                width: 250px;
+            }
+            /*ESTUDIOS MOBILE*/
+            .imagenEstudios {
+                position: relative;
+                top: 132px;
+                width: 80%;
+                left: 53px;
+            }
+            .todoEstudios {
+                position: relative;
+                left: 0px;
+                bottom: 40px;
+            }
+            .textoEstudios {
+                position: relative;
+                right: -10px;
+                top: 40px;
+            }
+            .imagenturnosEstudios {
+                position: relative;
+                top: 49px;
+                right: -31px;
+                width: 250px;
+            }
+            .imagenNeurologia {
+                position: relative;
+                width: 71%;
+                top: 109px;
+                left: 57px;
+            }
+            .imagenturnosNeuro {
+                position: fixed;
+                top: 617px;
+                right: 73px;
+                width: 250px;
+            }
+            .matricula {
+                position: relative;
+                left: 15px;
+                top: 140px;
+            }
+            .columnaTextoRehab {
+                position: relative;
+                top: 30px;
+                right: -8px;
+            }
+            .imagenturnosRehab {
+                position: fixed;
+                top: 614px;
+                right: 60px;
+            }
+            .imagenrehabNeurologia {
+                position: relative;
+                width: 80%;
+                top: 122px;
+                left: 43px;
+            }
+            .matriculaRehabNeuro {
+                position: relative;
+                left: -2px;
+                top: 140px;
+            }
+            /*Clinica Medica Mobile*/
+            .todoclinicaMain {
+                position: relative;
+                left: 9px;
+            }
+            .imagenClinica {
+                position: relative;
+                width: 60%;
+                top: 117px;
+                left: 46px;
+            }
+            .textoClinicaMedica {
+                position: relative;
+                top: 54px;
+                right: 3px;
+            }
+            .imagenturnosClinica {
+                position: fixed;
+                top: 614px;
+                right: 60px;
+                width: 250px;
+            }
+            .textoClinicaMedica ul li p {
+                margin-bottom: -6px;
+            }
+            /*Terapia Ocupacional Mobile*/
+            .imagenTerapia {
+                position: relative;
+                width: 80%;
+                top: 137px;
+                left: 42px;
+            }
+            .textoTerapia {
+                position: relative;
+                top: -14px;
+                right: 11px;
+            }
+            .imagenturnosTerapia {
+                position: relative;
+                top: 198px;
+                right: -30px;
+                width: 250px;
+            }
+            /*Fonoaudiología*/
+            .img-fono {
+                position: relative;
+                left: 37px;
+                width: 81%;
+                bottom: -121px;
+            }
+            .imagenturnosFono {
+                position: relative;
+                top: 202px;
+                right: -44px;
+                width: 250px;
+            }
+            .textoFonoaudiologia {
+                position: relative;
+                top: -1px;
+                right: 16px;
+            }
+        }
