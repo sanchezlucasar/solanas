@@ -138,4 +138,23 @@
         left: -2px;
         top: 140px;
     }
+    /*Clinica Medica Mobile*/
+    .todoclinicaMain {
+        position: relative;
+        left: 9px;
+    }
+    .imagenClinica {
+        position: relative;
+        width: 60%;
+        top: 117px;
+        left: 46px;
+    }
+    .textoClinicaMedica {
+        position: relative;
+        top: 54px;
+        right: 3px;
+    }
+    .textoClinicaMedica ul li p {
+        margin-bottom: -6px;
+    }
 }
