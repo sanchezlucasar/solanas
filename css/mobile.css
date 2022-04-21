@@ -214,3 +214,12 @@
                 right: 16px;
             }
         }
+        
+        @media only screen and (max-width: 420px) {
+            #whatsappGrande {
+                visibility: hidden;
+            }
+            #whatsappMobile {
+                visibility: visible;
+            }
+        }
