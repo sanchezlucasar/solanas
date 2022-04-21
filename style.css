@@ -7,14 +7,18 @@
             color: #5a4974;
         }
         
+        .divNav {
+            background: #9cac84;
+            -webkit-box-shadow: 0 4px 6px -6px #222;
+            -moz-box-shadow: 0 4px 6px -6px #222;
+            box-shadow: 0 6px 9px -9px #222;
+        }
+        
         nav {
             margin: auto;
             margin-top: 12px;
             padding-bottom: 1px;
             width: 85%;
-            -webkit-box-shadow: 0 4px 6px -6px #222;
-            -moz-box-shadow: 0 4px 6px -6px #222;
-            box-shadow: 0 6px 9px -9px #222;
             font-size: 16px;
         }
         
