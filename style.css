@@ -5,7 +5,42 @@
             
             .textoVioleta {
                 color: #5a4974;
+                font-size: 11px;
             }
+            /* STAFF */
+            
+            .cajaizquierda {
+                position: relative;
+                width: 400px;
+                left: 0px;
+            }
+            
+            .cajaizquierda p {
+                margin: 0 0 1px 0;
+            }
+            
+            .cajaderecha {
+                position: relative;
+                top: 30px;
+                width: 480px;
+                height: 480px;
+                right: 150px;
+            }
+            
+            .cajaderecha p {
+                margin: 1px 0 1px 0;
+            }
+            
+            .medico {
+                margin: 10px 0 10px 30px;
+            }
+            
+            .textoVioletaStaff {
+                color: #5a4974;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+            }
+            /*FIN STAFF */
             
             .divNav {
                 -webkit-box-shadow: 0 4px 6px -6px #222;
@@ -116,7 +151,7 @@
             
             .imgredes {
                 position: relative;
-                left: 64px;
+                left: 20px;
                 width: 60px;
             }
             
@@ -130,27 +165,11 @@
             }
             /*  SECCIÓN STAFF  */
             
-            .todasTablasStaff {
-                position: relative;
-                left: 84px;
-            }
-            
             .imagenStaff {
                 position: relative;
+                left: 15px;
                 top: 5px;
-                width: 68%;
-            }
-            
-            .textoBajoImagenStaff {
-                position: relative;
-                left: -28px;
-                bottom: 18px;
-            }
-            
-            .medicosderecha {
-                position: relative;
-                top: 40px;
-                right: 210px;
+                width: 98%;
             }
             /* CSS SECCIÓN CONTACTO  */
             
@@ -180,6 +199,14 @@
             }
             /* FIN CSS SECCIÓN STAFF  */
             
+            .escondido {
+                visibility: hidden;
+            }
+            
+            .sinEsconder {
+                visibility: visible;
+            }
+            
             @media only screen and (min-width:320px) and (max-width:768px) {
                 .btn-wsp {
                     width: 63px;
@@ -200,6 +227,13 @@
                     -moz-box-shadow: 0 4px 6px -6px #222;
                     box-shadow: 0 4px 6px -6px #222;
                     font-size: 16px;
+                }
+                .escondido {
+                    visibility: visible;
+                }
+                .sinEsconder {
+                    visibility: hidden;
+                    visibility: collapse;
                 }
                 /*CONTACTO*/
                 .imagenContacto {
@@ -303,12 +337,39 @@
                     padding: 0 0 0 0;
                     margin: 1px 0 -13px 0;
                 }
-                .imagenstaffa {
-                    visibility: hidden;
+                /*STAFF*/
+                .staff {
+                    position: absolute;
+                    width: 85%;
                 }
-                .medicosderecha {
-                    margin: -13px 0 0 0;
+                .imagenStaff {
+                    position: relative;
+                    left: 79px;
+                    top: -34px;
+                    width: 49%;
                 }
+                .cajaderecha {
+                    position: relative;
+                    top: 0px;
+                    width: 412px;
+                    height: 194px;
+                    right: 2px;
+                }
+                .cajaizquierda {
+                    position: relative;
+                    width: 386px;
+                    left: -17px;
+                }
+                .cajaTextoIzquierdo {
+                    position: relative;
+                    bottom: 47px;
+                }
+                .cajaTextoDerecho {
+                    position: relative;
+                    bottom: 58px;
+                    left: 75px;
+                }
+                /*FIN STAFF*/
             }
             
             .botonesFooter {
