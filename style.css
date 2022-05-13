@@ -41,6 +41,57 @@
                 font-size: 14px;
             }
             /*FIN STAFF */
+            /*COMIENZO ESTUDIOS*/
+            
+            .imagenEstudios {
+                width: 58%;
+                position: relative;
+                top: 5px;
+                right: -5px;
+            }
+            
+            .iframeEstudios {
+                height: 116px;
+                width: 34%;
+                position: relative;
+                top: -445px;
+                left: 611px;
+            }
+            /*FIN ESTUDIOS*/
+            /*COMIENZO NEURO*/
+            
+            .imagenNeurologia {
+                width: 58%;
+                position: relative;
+                top: 5px;
+                right: -5px;
+            }
+            
+            .iframe {
+                height: 116px;
+                width: 34%;
+                position: relative;
+                top: -323px;
+                left: 600px;
+            }
+            /*FIN NEURO*/
+            /*COMIENZO REHABILITACION NEURO*/
+            
+            .imagenReabNeurologia {
+                width: 58%;
+                position: relative;
+                top: 5px;
+                right: -5px;
+            }
+            
+            .iframeRehabNeuro {
+                height: 116px;
+                width: 34%;
+                position: relative;
+                top: -160px;
+                left: 600px;
+            }
+            /*FIN REHABILITACION NEURO*/
             
             .divNav {
                 -webkit-box-shadow: 0 4px 6px -6px #222;
@@ -370,6 +421,51 @@
                     left: 75px;
                 }
                 /*FIN STAFF*/
+                /*  CSS SECCIÓN ESTUDIOS  */
+                .iframeEstudios {
+                    height: 116px;
+                    width: 90%;
+                    position: relative;
+                    top: -131px;
+                    left: -18px;
+                }
+                .imagenEstudios {
+                    width: 99%;
+                    position: relative;
+                    top: -20px;
+                    right: -5px;
+                }
+                /* FIN CSS SECCIÓN ESTUDIOS  */
+                /*COMIENZO NEURO MOBIL*/
+                .iframe {
+                    height: 116px;
+                    width: 34%;
+                    position: relative;
+                    top: -79px;
+                    left: 11px;
+                }
+                .imagenNeurologia {
+                    width: 96%;
+                    position: relative;
+                    top: -20px;
+                    right: -5px;
+                }
+                /*FIN NEURO MOBIL*/
+                /*COMIENZO NEURO MOBIL*/
+                .iframeRehabNeuro {
+                    height: 116px;
+                    width: 34%;
+                    position: relative;
+                    top: -79px;
+                    left: 11px;
+                }
+                .imagenReabNeurologia {
+                    width: 96%;
+                    position: relative;
+                    top: -20px;
+                    right: -5px;
+                }
+                /*FIN NEURO MOBIL*/
             }
             
             .botonesFooter {
@@ -400,4 +496,66 @@
                     right: 0px;
                     width: 450px;
                 }
+            }
+            
+            @media only screen and (max-width: 325px) {
+                /*CONTACTO*/
+                .imagenContacto {
+                    width: 90%;
+                    position: relative;
+                    top: -26px;
+                    right: -7px;
+                }
+                .textosBajoImagen {
+                    position: relative;
+                    font-size: 10px;
+                    line-height: 2;
+                    right: -15px;
+                    font-weight: bold;
+                    bottom: 40px;
+                }
+                iframe {
+                    margin: 0px 0 0px -3px;
+                    height: 123px;
+                    width: 53%;
+                    border: solid #9cac84 3px;
+                    position: relative;
+                    top: -44px;
+                    left: 20px;
+                }
+                /*FIN CONTACTO*/
+                /*STAFF*/
+                .staff {
+                    position: absolute;
+                    width: 85%;
+                    font-size: 10px;
+                }
+                .imagenStaff {
+                    position: relative;
+                    left: 79px;
+                    top: -34px;
+                    width: 49%;
+                }
+                .cajaderecha {
+                    position: relative;
+                    top: 0px;
+                    width: 412px;
+                    height: 194px;
+                    right: 2px;
+                }
+                .cajaizquierda {
+                    position: relative;
+                    width: 386px;
+                    left: -17px;
+                }
+                .cajaTextoIzquierdo {
+                    position: relative;
+                    bottom: 47px;
+                }
+                .cajaTextoDerecho {
+                    position: relative;
+                    bottom: 58px;
+                    left: 75px;
+                }
+                /*FIN  Staff*/
             }
