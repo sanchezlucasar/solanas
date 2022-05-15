@@ -92,6 +92,57 @@
                 left: 600px;
             }
             /*FIN REHABILITACION NEURO*/
+            /*COMIENZO REHABILITACION NEURO*/
+            
+            .imagenterapia {
+                width: 58%;
+                position: relative;
+                top: 5px;
+                right: -5px;
+            }
+            
+            .iframeterapia {
+                height: 116px;
+                width: 34%;
+                position: relative;
+                top: -220px;
+                left: 600px;
+            }
+            /*FIN REHABILITACION NEURO*/
+            /*COMIENZO NEURO*/
+            
+            .imagenFono {
+                width: 58%;
+                position: relative;
+                top: 5px;
+                right: -5px;
+            }
+            
+            .iframeFono {
+                height: 116px;
+                width: 34%;
+                position: relative;
+                top: -173px;
+                left: 600px;
+            }
+            /*FIN NEURO*/
+            /*COMIENZO Clinica Medica*/
+            
+            .imagenClinica {
+                width: 50%;
+                position: relative;
+                top: 5px;
+                right: -5px;
+            }
+            
+            .iframeClinica {
+                height: 116px;
+                width: 34%;
+                position: relative;
+                top: -387px;
+                left: 575px;
+            }
+            /*FIN CLINICA MEDICA*/
             
             .divNav {
                 -webkit-box-shadow: 0 4px 6px -6px #222;
@@ -394,10 +445,10 @@
                     width: 85%;
                 }
                 .imagenStaff {
-                    position: relative;
-                    left: 79px;
+                    Position: relative;
+                    left: 51px;
                     top: -34px;
-                    width: 49%;
+                    width: 68%;
                 }
                 .cajaderecha {
                     position: relative;
@@ -426,7 +477,7 @@
                     height: 116px;
                     width: 90%;
                     position: relative;
-                    top: -131px;
+                    top: -103px;
                     left: -18px;
                 }
                 .imagenEstudios {
@@ -439,10 +490,10 @@
                 /*COMIENZO NEURO MOBIL*/
                 .iframe {
                     height: 116px;
-                    width: 34%;
+                    width: 97%;
                     position: relative;
-                    top: -79px;
-                    left: 11px;
+                    top: -19px;
+                    left: 6px;
                 }
                 .imagenNeurologia {
                     width: 96%;
@@ -454,10 +505,10 @@
                 /*COMIENZO NEURO MOBIL*/
                 .iframeRehabNeuro {
                     height: 116px;
-                    width: 34%;
+                    width: 95%;
                     position: relative;
-                    top: -79px;
-                    left: 11px;
+                    top: -37px;
+                    left: 9px;
                 }
                 .imagenReabNeurologia {
                     width: 96%;
@@ -466,6 +517,51 @@
                     right: -5px;
                 }
                 /*FIN NEURO MOBIL*/
+                /*  CSS SECCIÓN CLINICA MEDICA  */
+                .iframeClinica {
+                    height: 116px;
+                    width: 90%;
+                    position: relative;
+                    top: -131px;
+                    left: 4px;
+                }
+                .imagenClinica {
+                    width: 99%;
+                    position: relative;
+                    top: -20px;
+                    right: -5px;
+                }
+                /* FIN CSS SECCIÓN CLINICA MEDICA  */
+                /*  CSS SECCIÓN TERAPIA OCUPACIONAL */
+                .iframeterapia {
+                    height: 116px;
+                    width: 90%;
+                    position: relative;
+                    top: -60px;
+                    left: 6px;
+                }
+                .imagenterapia {
+                    width: 99%;
+                    position: relative;
+                    top: -20px;
+                    right: -5px;
+                }
+                /* FIN CSS SECCIÓN TERAPIA OCUPACIONAL */
+                /*  CSS SECCIÓN FONOAUDIOLOGIA */
+                .iframeFono {
+                    height: 116px;
+                    width: 90%;
+                    position: relative;
+                    top: -1px;
+                    left: 5px;
+                }
+                .imagenFono {
+                    width: 99%;
+                    position: relative;
+                    top: -20px;
+                    right: -5px;
+                }
+                /* FIN CSS SECCIÓN FONOAUDIOLOGIA */
             }
             
             .botonesFooter {
