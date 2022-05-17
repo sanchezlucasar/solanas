@@ -72,17 +72,17 @@ body {
 /*COMIENZO NEURO*/
 
 .imagenNeurologia {
-    width: 58%;
+    width: 48%;
     position: relative;
     top: 5px;
-    right: -35px;
+    right: -80px;
 }
 
 .iframe {
     height: 116px;
     width: 34%;
     position: relative;
-    top: -323px;
+    top: -223px;
     left: 620px;
 }
 
@@ -93,10 +93,10 @@ body {
 /*COMIENZO ESTUDIOS*/
 
 .imagenEstudios {
-    width: 50%;
+    width: 45%;
     position: relative;
     top: 5px;
-    right: -29px;
+    right: -100px;
 }
 
 .iframeEstudios {
@@ -114,10 +114,10 @@ body {
 /*COMIENZO REHABILITACION NEURO*/
 
 .imagenReabNeurologia {
-    width: 58%;
+    width: 50%;
     position: relative;
     top: 5px;
-    right: -35px;
+    right: -85px;
 }
 
 .iframeRehabNeuro {
@@ -135,10 +135,10 @@ body {
 /*COMIENZO TERAPIA OCUPACIONAL */
 
 .imagenterapia {
-    width: 58%;
+    width: 48%;
     position: relative;
     top: 5px;
-    right: -35px;
+    right: -85px;
 }
 
 .iframeterapia {
@@ -159,7 +159,7 @@ body {
     width: 58%;
     position: relative;
     top: 5px;
-    right: -35px;
+    right: -85px;
 }
 
 .iframeFono {
@@ -177,10 +177,10 @@ body {
 /*COMIENZO Clinica Medica*/
 
 .imagenClinica {
-    width: 50%;
+    width: 45%;
     position: relative;
     top: 5px;
-    right: -35px;
+    right: -85px;
 }
 
 .iframeClinica {
@@ -213,6 +213,10 @@ nav ul {
     text-align: center;
     list-style: none;
     overflow: hidden;
+}
+
+.nav-link {
+    padding: 0.5rem 9px;
 }
 
 ul li {
@@ -298,7 +302,7 @@ footer {
 
 .imgredes {
     position: relative;
-    left: 50px;
+    left: 90px;
     width: 60px;
 }
 
@@ -316,28 +320,42 @@ footer {
 
 .imagenStaff {
     position: relative;
-    left: 15px;
+    left: 75px;
     top: 5px;
     width: 98%;
+}
+
+.cajaTextoIzquierdo {
+    position: relative;
+    bottom: 27px;
+    left: 47px;
+}
+
+.cajaderecha {
+    position: relative;
+    top: 100px;
+    width: 366px;
+    height: 377px;
+    right: 200px;
 }
 
 
 /* CSS SECCIÓN CONTACTO  */
 
 .imagenContacto {
-    width: 40%;
+    width: 36%;
     position: relative;
     top: 5px;
-    right: -47px;
+    right: -105px;
 }
 
 .textosBajoImagen {
     position: relative;
     font-size: 14px;
-    right: -57px;
+    right: -99px;
     font-weight: bold;
     line-height: 2;
-    bottom: 67px;
+    bottom: 22px;
 }
 
 iframe {
@@ -346,7 +364,7 @@ iframe {
     height: 278px;
     top: -330px px;
     width: 450px;
-    left: 636px;
+    left: 586px;
 }
 
 
@@ -634,7 +652,7 @@ iframe {
     position: relative;
     width: 80%;
     float: right;
-    right: 1px;
+    right: 50px;
 }
 
 .whatsapp {
@@ -663,7 +681,7 @@ iframe {
         width: 90%;
         position: relative;
         top: -26px;
-        right: -7px;
+        right: -57px;
     }
     .textosBajoImagen {
         position: relative;
