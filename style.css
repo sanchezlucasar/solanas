@@ -717,4 +717,20 @@ iframe {
         left: 75px;
     }
     /*FIN  Staff*/
+    /*estudios*/
+    .imagenEstudios {
+        width: 75%;
+        position: relative;
+        top: -35px;
+        right: -44px;
+    }
+    /*FIN estudios*/
+    /*CLINICA*/
+    .imagenClinica {
+        width: 74%;
+        position: relative;
+        top: -32px;
+        right: -39px;
+    }
+    /*FIN CLINICA*/
 }
